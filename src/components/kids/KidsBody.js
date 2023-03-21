@@ -32,16 +32,7 @@ function KidsBody() {
                     height={'700px'} alt='banner' />
             </div>
 
-            <img className='col-11 mt-4 m-4'
-                src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/11/d153ee75-3464-44f7-9041-4afd29d95a751646993148101-Unbelievable-Deals.jpg'
-                height={'150px'} alt='banner' />
-
-            <div className='col-12 p-2'>
-                {imgKidsArr.map(val => {
-                    console.log(val)
-                    return <img src={val.img} className='col-2' alt='shradda' />
-                })}
-            </div>
+            
         </div>
     )
 }

@@ -23,7 +23,7 @@ function App() {
         <Navigation />
         <Route exact path={'/'} component={Home} />
         <Route path={'/men'} component={MenBody} />
-        <Route path={'/women'} component={WomenBody} />
+        <Route path={'/women'} component={WomenBody} /> 
         <Route path={'/kids'} component={KidsBody} />
         <Route path={'/homeandliving'} component={HomeAndLiving} />
         <Route path={'/login'} component={LogIn} />
